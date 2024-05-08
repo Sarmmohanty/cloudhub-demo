@@ -40,7 +40,6 @@
 						<businessGroupId>${businessGroupId}</businessGroupId>
 						<businessGroup>${anypoint_platform_business_group}</businessGroup>
 						<deploymentTimeout>${deploymentTimeout}</deploymentTimeout>
-						<objectStoreV2>false</objectStoreV2>
 						<artifact>target/${project.artifactId}-${project.version}-mule-application.jar</artifact>
 						<workerType>${workerType}</workerType>
 						<workers>${workers}</workers>
