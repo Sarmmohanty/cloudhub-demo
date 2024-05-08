@@ -46,7 +46,6 @@ env:
                                                                              #  XLARGE (4 vCores)
                                                                              #  XXLARGE (8 vCores)
                                                                              #  4XLARGE (16 vCores)
-  objectStoreV2: "false"                                                                            # Please provide the value as true or false based on object store usage in your application  
   anypointPlatformBaseUriProperty: "anypointPlatformBaseUri"                                  # Name of the property that contains the Anypoint Base URI
   muleVersionProperty: "muleVersion"                                                          # Name of the property that contains the MuleSoft runtime version
   usernameProperty: "username"                                                                # Name of the property that contains the Anypoint deployment username
