@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>6b17e4a4-01de-4eb5-9937-98319fffc195</groupId>
+	<groupId>b0e42eef-9d72-4a0e-937b-5add27666d99</groupId>
 	<artifactId>cloudhub-poc-api</artifactId>
 	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
@@ -13,7 +13,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<app.runtime>4.4.0</app.runtime>
-		<mule.maven.plugin.version>3.8.2</mule.maven.plugin.version>
+		<mule.maven.plugin.version>3.8.6</mule.maven.plugin.version>
 	</properties>
 
 	<build>
@@ -64,7 +64,7 @@
 		<dependency>
 			<groupId>org.mule.connectors</groupId>
 			<artifactId>mule-http-connector</artifactId>
-			<version>1.9.2</version>
+			<version>1.9.3</version>
 			<classifier>mule-plugin</classifier>
 		</dependency>
 	</dependencies>
