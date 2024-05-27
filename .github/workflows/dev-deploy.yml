@@ -26,7 +26,7 @@ env:
   # Common Properties for all deployment targets
   anypointPlatformBaseUri: https://anypoint.mulesoft.com/                                    # always https://anypoint.mulesoft.com/
   workflowEnv: dev                                                                            # this maps to mule application {env} properties
-  applicationName:  "cloudhub-poc-api-dev"                                    # Application Name in Runtime Manager
+  applicationName:  "cloudhub-github-actions-api-dev"                                    # Application Name in Runtime Manager
   muleVersion: 4.4.0                                                                          # Mule Version to be deployed - maps to app.runtime
   anypointPlatformUsername: ${{ secrets.anypoint_username }}                         # Anypoint Platform Identity Username for deployment
   anypointPlatformPassword: ${{ secrets.anypoint_password}}                          # Anypoint Platform Identity Password for deployment

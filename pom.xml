@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>b0e42eef-9d72-4a0e-937b-5add27666d99</groupId>
-	<artifactId>cloudhub-poc-api</artifactId>
+	<artifactId>cloudhub-github-actions-api</artifactId>
 	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
 
-	<name>cloudhub-poc-api</name>
+	<name>cloudhub-github-actions-api</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
